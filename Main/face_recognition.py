@@ -12,7 +12,7 @@ labels = np.load('labels.npy')
 face_recognizer = cv.face.LBPHFaceRecognizer_create()
 face_recognizer.read('face_trained.yml')
 
-img = cv.imread(r'../Resources\Faces\val\Abhinav_Sreejith/4.JPG')
+img = cv.imread(r'../Resources\Faces\val\Abhay_MP/1.JPG')
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow('Person', gray)
